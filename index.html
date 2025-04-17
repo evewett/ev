@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>for the silliest of all gooses</title>
+  <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #ffffff;
+      font-family: 'La Belle Aurore', cursive;
+      line-height: 1.4;
+      color: #000;
+      background-image: url('https://www.transparenttextures.com/patterns/sketchy.png');
+      position: relative;
+      min-height: 100vh;
+    }
+    /* Floating doodles */
+    .float {
+      position: absolute;
+      opacity: 0.4;
+    }
+    .float1 { top: 5%; left: 15%; transform: rotate(-10deg); width: 40px; }
+    .float2 { top: 15%; right: 20%; transform: rotate(25deg); width: 30px; }
+    .float3 { bottom: 10%; left: 10%; transform: rotate(5deg); width: 35px; }
+    .float4 { bottom: 20%; right: 15%; transform: rotate(-20deg); width: 45px; }
+    .float5 { top: 40%; left: 50%; transform: rotate(15deg); width: 25px; }
+    .float6 { top: 60%; right: 45%; transform: rotate(30deg); width: 30px; }
+    .float7 { bottom: 30%; left: 30%; transform: rotate(-30deg); width: 50px; }
+    .float8 { bottom: 5%; right: 5%; transform: rotate(10deg); width: 40px; }
+
+    /* Accent dots */
+    .dot { position: absolute; border-radius: 50%; width: 10px; height: 10px; opacity: 0.7; }
+    .dot1 { top: 8%; left: 18%; background: #8a2be2; }
+    .dot2 { top: 28%; left: 78%; background: #ffa500; }
+    .dot3 { top: 68%; left: 13%; background: #8a2be2; }
+    .dot4 { top: 83%; left: 58%; background: #ffa500; }
+
+    h1 { font-size: 2rem; text-align: center; margin: 20px 0; }
+    .doodle-svg { width: auto; height: 30px; }
+    .crown { margin-bottom: -15px; }
+    .goose-svg { width: 100px; margin: 15px auto; display: block; }
+    p { max-width: 500px; margin: 10px auto; font-size: 1rem; text-align: center; }
+    .chinese { font-family: 'ZCOOL KuaiLe', cursive; font-size: 1.1rem; color: #8a2be2; }
+    .buttons { margin: 25px auto; display: flex; flex-direction: column; gap: 15px; align-items: center; }
+    .button-frame { display: flex; align-items: center; gap: 6px; padding: 6px 10px; border: 2px dotted #000; border-radius: 10px; background: #ffd5ec; transition: transform 0.2s; }
+    .button-frame:hover { transform: scale(1.05); }
+    .button-frame a { text-decoration: none; color: #000; font-size: 0.9rem; }
+    .doodle { width: 18px; height: 18px; }
+    .footer { margin: 40px 0 20px; font-size: 0.8rem; text-align: center; color: #888; }
+  </style>
+</head>
+<body>
+  <!-- Floating Doodles -->
+  <svg class="float float1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="#000" stroke-width="1.5" d="M4 4l16 16M20 4L4 20"/></svg>
+  <svg class="float float2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="none" stroke="#8a2be2" stroke-width="1" d="M10 0 L12 7 H19 L13.5 11 L15.5 18 L10 14 L4.5 18 L6.5 11 L1 7 H8 Z"/></svg>
+  <svg class="float float3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="none" stroke="#ffa500" stroke-dasharray="2,2" stroke-width="1"/></svg>
+  <svg class="float float4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 10"><path fill="none" stroke="#000" stroke-width="1" d="M0,5 C5,0 10,10 15,5 C20,0 25,10 30,5"/></svg>
+  <svg class="float float5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon fill="none" stroke="#000" stroke-width="1" points="12,2 15,11 24,11 17,16 19,24 12,19 5,24 7,16 0,11 9,11"/></svg>
+  <svg class="float float6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="none" stroke="#000" stroke-dasharray="1,3" stroke-width="1" d="M2,18 L18,2"/></svg>
+  <svg class="float float7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 10"><path fill="none" stroke="#8a2be2" stroke-width="1" d="M0,5 L10,5 L15,0 L20,5 L30,5"/></svg>
+  <svg class="float float8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="none" stroke="#ffa500" stroke-width="1" d="M10,0 Q12,5 10,10 Q8,15 10,20"/></svg>
+
+  <!-- Accent Dots -->
+  <div class="dot dot1"></div>
+  <div class="dot dot2"></div>
+  <div class="dot dot3"></div>
+  <div class="dot dot4"></div>
+
+  <!-- Crown Doodle -->
+  <svg class="doodle-svg crown" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 30"><polyline points="0,30 10,5 20,30 30,5 40,30 50,5 60,30 80,0 100,30" fill="none" stroke="#8a2be2" stroke-width="2"/></svg>
+
+  <h1>for the silliest of all gooses</h1>
+
+  <!-- Goose Doodle with Label -->
+  <svg class="goose-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100"><circle cx="40" cy="50" r="20" fill="none" stroke="#000" stroke-width="2"/><circle cx="75" cy="40" r="15" fill="none" stroke="#000" stroke-width="2"/><polygon points="90,40 100,35 100,45" fill="none" stroke="#000" stroke-width="2"/><line x1="30" y1="70" x2="30" y2="85" stroke="#000" stroke-width="2"/><line x1="50" y1="70" x2="50" y2="85" stroke="#000" stroke-width="2"/><text x="30" y="98" font-family="La Belle Aurore" font-size="14">bub</text></svg>
+
+  <p>hi bub. it’s your wife. i made you a little page with some silly and sweet things for the sweetest goose in the world. hope it makes your heart warm like you make mine every day.</p>
+  <p class="chinese">你是我最喜欢的小傻瓜。</p>
+
+  <!-- Buttons with Doodle Icons -->
+  <div class="buttons">
+    <div class="button-frame"><svg class="doodle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 18s-6-4.6-6-10 4-6 6-4 6 2 6 8-6 6-6 6z" fill="none" stroke="#8a2be2" stroke-width="1"/></svg><a href="letter.pdf" target="_blank">Read a letter</a></div>
+    <div class="button-frame"><svg class="doodle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><polygon points="10,1 12,8 19,8 13,12 15,19 10,14 5,19 7,12 1,8 8,8" fill="none" stroke="#ffa500" stroke-width="1"/></svg><a href="memory.jpg" target="_blank">See a memory</a></div>
+    <div class="button-frame"><svg class="doodle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M18 13a5 5 0 0 0-9.9-1A4 4 0 1 0 4 15h14z" fill="none" stroke="#8a2be2" stroke-width="1"/></svg><a href="surprise.mp4" target="_blank">Play a surprise</a></div>
+  </div>
+
+  <div class="footer">made with maximum silliness & love by your wife</div>
+</body>
+</html>
